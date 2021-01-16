@@ -13,4 +13,9 @@
     margin: 0 auto;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
 @import 'blocks/_header';

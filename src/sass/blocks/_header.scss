@@ -1,11 +1,7 @@
 .header {
-    padding: 40px 0;
-    background: linear-gradient(180deg, #F1F4FF 24.48%, rgba(245, 247, 255, 0) 100%);
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {

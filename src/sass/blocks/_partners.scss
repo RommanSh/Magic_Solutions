@@ -1,0 +1,55 @@
+.partners {
+    padding: 85px 0 45px 0;
+    min-height: 475px;
+    background: url(../img/bg_partners.png) center (center/70%) no-repeat,
+    radial-gradient(113.95% 113.95% at 50% 10.04%, #7691F3 0%, #133BC9 83.85%);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1170px;
+    }
+
+    &__content {
+        max-width: 645px;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+    &__social {
+        margin: 0 auto;
+        margin-top: 50px;
+        padding-left: 80px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1170px;
+    }
+    &__item {
+        &_twitter {
+            margin-top: 65px;
+        }
+        &_adjust {
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        &_snap {
+            margin-top: 60px;
+        }
+        &_targetp {
+            margin-left: 90px;
+        }
+        &_facebook {
+            margin-left: 25px;
+            margin-top: 50px;
+        }
+    }
+}

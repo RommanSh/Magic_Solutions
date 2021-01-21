@@ -14,6 +14,9 @@
     &_battery {
         background:  linear-gradient(to left, #F1F4FF 59%, #329451 59%, #329451 100%);
     }
+    &_smart {
+        background:  linear-gradient(to right, #0D1121 59%, #3D4ABF 59%, #3D4ABF 100%);
+    }
 
     &__wrapper {
         display: flex;
@@ -47,6 +50,9 @@
         }
         &_battery::before {
             content: url('../icons/battery.svg');
+        }
+        &_smart::before {
+            content: url('../icons/smart.svg');
         }
     }
     &__descr {

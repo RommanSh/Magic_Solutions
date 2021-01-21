@@ -5,6 +5,9 @@
     &_results {
         background:  linear-gradient(to right, #0D1121 59%, #66A3FF 59%, #66A3FF 100%);
     }
+    &_blocker {
+        background:  linear-gradient(to left, #F1F4FF 59%, #036E55 59%, #036E55 100%);
+    }
 
     &__wrapper {
         display: flex;
@@ -23,10 +26,15 @@
         font-size: 39px;
         line-height: 50px;
         font-weight: 700;
-        &_results::before {
+        &::before {
             position: absolute;
             left: 0;
+        }
+        &_results::before {
             content: url('../icons/results.svg');
+        }
+        &_blocker::before {
+            content: url('../icons/blocker.svg');
         }
     }
     &__descr {
@@ -62,6 +70,9 @@
         position: absolute;
         top: 120px;
         left: 54%;
+        &_left {
+            left: 36%;
+        }
     }
 
     &__available {

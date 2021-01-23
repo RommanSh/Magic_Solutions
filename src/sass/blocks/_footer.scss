@@ -1,0 +1,52 @@
+.footer {
+    position: relative;
+    padding: 85px 0 30px 0;
+    min-height: 340px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 250%;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+        color: #000000;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 35px;
+        text-transform: uppercase;
+    }
+    &__adress {
+        width: 200px;
+        margin-right: 150px;
+    }
+    &__contact {
+        width: 150px;
+        &-link {
+            color: #000000;
+        }
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        color: #9AA0B5;
+    }
+    &__privacy, &__terms {
+        color: #9AA0B5;
+    }
+    &__privacy {
+        margin-right: 70px;
+    }
+    &__divider {
+        position: absolute;
+        bottom: 90px;
+        width: 100%;
+        border-top: 1px solid #ECF0FA;
+    }
+}

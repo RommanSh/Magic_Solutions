@@ -1,0 +1,123 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .menu {
+        &__item {
+            margin-right: 50px;
+        }
+    }
+    .partners {
+        padding-left: 25px;
+        padding-right: 25px;
+        &__content {
+            max-width: 600px;
+        }
+        &__title {
+            font-size: 45px;
+        }
+    }
+    .product {
+        &__content {
+            max-width: 450px;
+        }
+        &__img {
+            left: 50%;
+            &_left {
+                left: 32%;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .mobile {
+        &__item {
+            &:first-child {
+                margin-right: 20px;
+            }
+        }
+        &__title {
+            display: none;
+        }
+    }
+
+    .partners {
+        &__wrapper {
+            img {
+                width: 120px;
+            }
+        }
+        &__content {
+            margin: 0 15px;
+        }
+        &__title {
+            font-size: 35px;
+        }
+        &__social {
+            flex-wrap: wrap;
+            padding: 0;
+        }
+        &__item {
+            &_snap {
+                margin-left: 15px;
+            }
+            &_targetp {
+                margin-left: 55px;
+            }
+        }
+    }
+
+    .product {
+        &__content {
+            max-width: 330px;
+        }
+        &__title {
+            font-size: 33px;
+            &::before {
+                transform: scale(0.9);
+            }
+        }
+        &__descr {
+            font-size: 16px;
+        }
+        &__btn {
+            font-size: 18px;
+        }
+        &__img {
+            width: 160px;
+        }
+        &__available-link {
+            width: 160px;
+            height: 49px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .contacts {
+        &__title {
+            max-width: 280px;
+            font-size: 30px;
+        }
+        &__form {
+            max-width: 410px;
+        }
+        &__input {
+            input {
+                width: 195px;
+            }
+        }
+    }
+
+    .footer {
+        &__adress {
+            margin-right: 70px;
+        }
+    }
+}

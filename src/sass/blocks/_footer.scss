@@ -5,7 +5,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 250%;
-    &__wrapper {
+    &__wrapper, &__inner {
         display: flex;
         justify-content: space-between;
         align-items: start;

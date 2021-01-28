@@ -68,10 +68,11 @@
         font-size: 22px;
         font-weight: 600;
         color: #000000;
+        background: linear-gradient(99.12deg, rgba(0, 0, 0, 0.42) -6.71%, rgba(0, 0, 0, 0.17) 122.93%);
         border-radius: 18px;
         &::before {
             position: absolute;
-            top: 10px;
+            top: 14px;
             left: 15px;
             content: url('../icons/subtract.svg');
         }

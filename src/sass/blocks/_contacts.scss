@@ -6,6 +6,9 @@
         display: flex;
         justify-content: space-between;
     }
+    &__icon {
+        display: none;
+    }
     &__title {
         max-width: 330px;
         font-weight: bold;
@@ -25,6 +28,9 @@
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: 510px;
+    }
+    legend {
+        display: none;
     }
     label {
         font-weight: 500;

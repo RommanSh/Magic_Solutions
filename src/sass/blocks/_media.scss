@@ -47,11 +47,6 @@
     }
 
     .partners {
-        &__wrapper {
-            img {
-                width: 120px;
-            }
-        }
         &__content {
             margin: 0 15px;
         }
@@ -63,6 +58,9 @@
             padding: 0;
         }
         &__item {
+            img {
+                transform: scale(0.85);
+            }
             &_snap {
                 margin-left: 15px;
             }
@@ -85,9 +83,6 @@
         &__descr {
             font-size: 16px;
         }
-        &__btn {
-            font-size: 18px;
-        }
         &__img {
             width: 160px;
         }
@@ -103,7 +98,7 @@
     .contacts {
         &__title {
             max-width: 280px;
-            font-size: 30px;
+            // font-size: 30px;
         }
         &__form {
             max-width: 410px;
@@ -118,6 +113,165 @@
     .footer {
         &__adress {
             margin-right: 70px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .partners {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__content {
+            order: -1;
+        }
+        &__title {
+            font-size: 30px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+
+        &__item {
+            &_apple, &_google {
+                margin: 20px 10% 0 10%;
+                img {
+                    width: 70px;
+                }
+            }
+            &_twitter {
+                margin-top: 10%;
+                margin-left: 2%;
+                img {
+                    width: 40px;
+                }
+            }
+            &_adjust {
+                margin-left: 9%;
+                margin-top: 4%;
+                img {
+                    width: 104px;
+                }
+            }
+            &_snap {
+                margin-top: 9%;
+                margin-left: 7%;
+                img {
+                    width: 45px;
+                }
+            }
+            &_targetp {
+                margin-top: 7%;
+                margin-left: 11%;
+                img {
+                    width: 75px;
+                }
+            }
+            &_facebook {
+                margin-right: 6%;
+                margin-top: 5%;
+                img {
+                    width: 47px;
+                }
+            }
+        }
+    }
+
+    .product {
+        padding: 40px 0;
+        &_results {
+            background:  #66A3FF;
+        }
+        &_blocker {
+            background: #036E55;
+        }
+        &_hologram, &_smart {
+            background:  #0D1121;
+        }
+        &_battery {
+            background: #329451;
+        }
+
+        &__wrapper {
+            justify-content: center;
+        }
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+            color: #ffffff;
+        }
+        &__title {
+            padding-left: 60px;
+            font-size: 25px;
+            &::before {
+                transform: scale(0.8);
+            }
+        }
+        &__descr {
+            margin-top: 440px;
+            line-height: 200%;
+            text-align: center;
+        }
+        &__btn {
+            background: rgba(255, 255, 255, 0.16);
+        }
+        &__img {
+            width: 140px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__available {
+            display: none;
+        }
+    }
+
+    .contacts {
+        padding: 45px 0;
+        background: linear-gradient(to bottom, #133bc9 380px, #ecf0fa 380px, #ecf0fa 100%);
+        &__wrapper {
+            flex-direction: column;
+            // align-items: center;
+        }
+        &__icon {
+            display: block;
+            margin-bottom: 40px;
+        }
+        &__form {
+            margin-top: 100px;
+            legend {
+                position: relative;
+                margin-bottom: 35px;
+                padding-left: 35px;
+                display: block;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                color: #000000;
+                &::before {
+                    position: absolute;
+                    left: 0;
+                    content: url('../icons/quill.svg');
+                }
+            }
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__title {
+            margin-top: 35px;
         }
     }
 }

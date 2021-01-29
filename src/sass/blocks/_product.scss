@@ -17,6 +17,11 @@
     &_smart {
         background:  linear-gradient(to right, #0D1121 59%, #3D4ABF 59%, #3D4ABF 100%);
     }
+    &_promo {
+        padding: 0;
+        margin-top: 80px;
+        min-height: 530px;
+    }
 
     &__wrapper {
         display: flex;
@@ -27,6 +32,9 @@
         max-width: 500px;
         &_white {
             color: #ffffff;
+        }
+        &_promo {
+            margin-top: 150px;
         }
     }
     &__title {
@@ -92,6 +100,10 @@
         &_left {
             left: 36%;
         }
+        &_promo {
+            top: 0;
+            left: 59%;
+        }
     }
 
     &__available {
@@ -99,6 +111,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        &_promo {
+            margin-top: 120px;
+        }
         span {
             font-size: 16px;
             font-weight: 600;

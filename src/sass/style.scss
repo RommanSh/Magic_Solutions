@@ -1,7 +1,10 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
 
-
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 * {
     font-family: 'Gilroy', sans-serif;
     margin: 0;
@@ -25,5 +28,6 @@ a:hover {
 @import 'blocks/_contacts';
 @import 'blocks/_footer';
 @import 'blocks/_gallery';
+@import 'blocks/_features';
 
 @import 'blocks/_media';

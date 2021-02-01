@@ -1,0 +1,21 @@
+.gallery {
+    padding: 90px 0;
+    min-height: 860px;
+    background: radial-gradient(113.95% 113.95% at 50% 10.04%, #343538 0%, #0B0F20 83.85%);
+    overflow: hidden;
+    &__title {
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 60px;
+        margin-left: 10%;
+    }
+    &__item {
+        margin-right: 45px;
+    }
+}

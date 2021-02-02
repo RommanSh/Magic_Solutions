@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
+@import 'libs/slick';
 
 body {
     max-width: 1440px;
@@ -30,5 +31,6 @@ a:hover {
 @import 'blocks/_gallery';
 @import 'blocks/_features';
 @import 'blocks/_download';
+@import 'blocks/slider';
 
 @import 'blocks/_media';

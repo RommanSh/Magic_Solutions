@@ -1,0 +1,36 @@
+.download {
+    padding: 100px 0;
+    min-height: 325px;
+    background: radial-gradient(113.95% 113.95% at 50% 10.04%, #343538 0%, #0B0F20 83.85%);
+    &__title {
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    &__link {
+        margin-right: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 190px;
+        height: 57px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 7px;
+        &:last-child {
+            margin-right: 0;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+    }
+}

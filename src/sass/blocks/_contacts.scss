@@ -28,9 +28,9 @@
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: 510px;
-    }
-    legend {
-        display: none;
+        &-title {
+            display: none;
+        }
     }
     label {
         font-weight: 500;

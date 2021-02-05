@@ -2,11 +2,13 @@
     .container {
         max-width: 960px;
     }
+
     .menu {
         &__item {
             margin-right: 50px;
         }
     }
+
     .main-slider {
         &__item {
             img {
@@ -20,6 +22,7 @@
             right: -60px;
         }
     }
+
     .partners {
         padding-left: 25px;
         padding-right: 25px;
@@ -30,6 +33,7 @@
             font-size: 45px;
         }
     }
+
     .product {
         &__content {
             max-width: 450px;
@@ -39,13 +43,29 @@
             &_left {
                 left: 32%;
             }
+            &_promo {
+                left: 55%;
+            }
         }
     }
 }
 
+
 @media (max-width: 992px) {
     .container {
         max-width: 720px;
+    }
+
+    .promo {
+        &_results {
+            background:  linear-gradient(to right, #F1F4FF 60%, #66A3FF 60%, #66A3FF 100%);
+        }
+    }
+
+    .menu {
+        &__link_white {
+            color: #ffffff;
+        }
     }
 
     .mobile {
@@ -109,6 +129,9 @@
         }
         &__img {
             width: 160px;
+            &_promo {
+                left: 53%;
+            }
         }
         &__available-link {
             width: 160px;
@@ -138,6 +161,36 @@
             margin-right: 70px;
         }
     }
+
+    .gallery {
+        &__title {
+            font-size: 27px;
+        }
+        &__item {
+            margin-right: 20px;
+            width: 240px;
+        }
+    }
+
+    .features {
+        padding: 70px 0;
+        min-height: 700px;
+        &__img {
+            transform: scale(0.86);
+        }
+        &__content {
+            margin-left: 30px;
+        }
+        &__item {
+            margin-top: 20px;
+        }
+    }
+
+    .download {
+        &__title {
+            font-size: 27px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -148,6 +201,9 @@
     .promo {
         min-height: 470px;
         padding: 30px 0 50px 0;
+        &_results {
+            background:  linear-gradient(to bottom, #F1F4FF 65%, #343538 65%, #0B0F20 100%);
+        }
     }
 
     .menu {
@@ -247,9 +303,17 @@
         &_battery {
             background: #329451;
         }
+        &_promo {
+            padding: 0;
+            margin-top: 40px;
+        }
 
         &__wrapper {
             justify-content: center;
+            &_promo {
+                flex-direction: column;
+                align-items: center;
+            }
         }
         &__content {
             display: flex;
@@ -257,6 +321,9 @@
             align-items: center;
             margin-top: 0;
             color: #ffffff;
+            &_promo {
+                color: #000000;
+            }
         }
         &__title {
             padding-left: 60px;
@@ -269,6 +336,9 @@
             margin-top: 440px;
             line-height: 200%;
             text-align: center;
+            &_promo {
+                display: none;
+            }
         }
         &__btn {
             background: rgba(255, 255, 255, 0.16);
@@ -278,9 +348,16 @@
             top: 110px;
             left: 50%;
             transform: translateX(-50%);
+            &_promo {
+                top: 90px;
+            }
         }
         &__available {
             display: none;
+            &_promo {
+                margin-top: 480px;
+                display: flex;
+            }
         }
     }
 
@@ -324,6 +401,35 @@
             margin-top: 35px;
         }
     }
+
+    .gallery {
+        display: none;
+    }
+
+    .features {
+        padding: 0;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__img {
+            transform: scale(0.71);
+        }
+    }
+
+    .download {
+        display: none;
+    }
+
+    .slider {
+        &__inner {
+            width: 160px;
+        }
+        &__item {
+            margin-top: 40px;
+        }
+        
+    }
 }
 
 @media (max-width: 576px) {
@@ -366,6 +472,12 @@
         }
         &__inner {
             justify-content: start;
+        }
+    }
+
+    .features {
+        &__img {
+            transform: scale(0.57);
         }
     }
 }

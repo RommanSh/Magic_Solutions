@@ -5,15 +5,49 @@
     border: none;
 }
 
+.slick-dots {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+    li {
+        margin: 0 7px;
+        list-style-type: none;
+        button {
+            width: 12px;
+            height: 12px;
+            background-color: transparent;
+            border-radius: 50%;
+            border: 1px solid #A5B5E6;
+            font-size: 0;
+        }
+    }
+    li.slick-active {
+        button {
+            background: #2958E6;
+            order: 1px solid #2958E6;
+        }
+    }
+}
+
 .main-slider {
     padding-top: 75px;
     &__inner {
+        position: relative;
         margin: 0 auto;
         max-width: 865px;
     }
+    &__item {
+        img {
+            margin: 0 auto;
+        }
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
     
     .slick-prev, .slick-next {
-        left: -100px;
+        left: -90px;
         background-color: transparent;
         img {
             width: 32px;
@@ -24,31 +58,6 @@
         right: -90px;
         left: auto;
     }
-    .slick-dots {
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-        
-        li {
-            margin: 0 5px;
-            list-style-type: none;
-            button {
-                width: 10px;
-                height: 10px;
-                background-color: transparent;
-                border-radius: 50%;
-                border: 1px solid #A5B5E6;
-                font-size: 0;
-            }
-        }
-        li.slick-active {
-            button {
-                background: #2958E6;
-                order: 1px solid #2958E6;
-            }
-        }
-    }
-    
 }
 
 .slider {
@@ -69,11 +78,13 @@
     }
     &__item {
         img {
+            margin: 0 auto;
             width: 140px;
             height: 140px;
         }
         span {
             display: block;
+            margin: 0 auto;
             margin-top: 13px;
             width: 140px;
             font-weight: 500;

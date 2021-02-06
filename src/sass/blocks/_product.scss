@@ -56,8 +56,17 @@
         &_hologram::before {
             content: url('../icons/hologram.svg');
         }
+        &_security::before {
+            content: url('../icons/security.svg');
+        }
         &_battery::before {
             content: url('../icons/battery.svg');
+        }
+        &_clean::before {
+            content: url('../icons/cleaner.svg');
+        }
+        &_login::before {
+            content: url('../icons/password.svg');
         }
         &_smart::before {
             content: url('../icons/smart.svg');

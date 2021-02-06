@@ -5,4 +5,25 @@
     &_results {
         background:  linear-gradient(to right, #F1F4FF 63%, #66A3FF 63%, #66A3FF 100%);
     }
+    &_blocker {
+        background:  linear-gradient(to right, #F1F4FF 63%, #036E55 63%, #036E55 100%);
+    }
+    &_hologram {
+        background:  linear-gradient(to right, #F1F4FF 63%, #1B1D22 63%, #1B1D22 100%);
+    }
+    &_security {
+        background:  linear-gradient(to right, #F1F4FF 63%, #011630 63%, #011630 100%);
+    }
+    &_battery {
+        background:  linear-gradient(to right, #F1F4FF 63%, #329451 63%, #329451 100%);
+    }
+    &_clean {
+        background:  linear-gradient(to right, #F1F4FF 63%, #1F2323 63%, #1F2323 100%);
+    }
+    &_login {
+        background:  linear-gradient(to right, #F1F4FF 63%, #5E4DFF 63%, #5E4DFF 100%);
+    }
+    &_smart {
+        background:  linear-gradient(to right, #F1F4FF 63%, #3D4ABF 63%, #3D4ABF 100%);
+    }
 }

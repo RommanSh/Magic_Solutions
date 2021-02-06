@@ -60,6 +60,27 @@
         &_results {
             background:  linear-gradient(to right, #F1F4FF 60%, #66A3FF 60%, #66A3FF 100%);
         }
+        &_blocker {
+            background:  linear-gradient(to right, #F1F4FF 60%, #036E55 60%, #036E55 100%);
+        }
+        &_hologram {
+            background:  linear-gradient(to right, #F1F4FF 60%, #1B1D22 60%, #1B1D22 100%);
+        }
+        &_security {
+            background:  linear-gradient(to right, #F1F4FF 60%, #011630 60%, #011630 100%);
+        }
+        &_battery {
+            background:  linear-gradient(to right, #F1F4FF 60%, #329451 60%, #329451 100%);
+        }
+        &_clean {
+            background:  linear-gradient(to right, #F1F4FF 60%, #1F2323 60%, #1F2323 100%);
+        }
+        &_login {
+            background:  linear-gradient(to right, #F1F4FF 60%, #5E4DFF 60%, #5E4DFF 100%);
+        }
+        &_smart {
+            background:  linear-gradient(to right, #F1F4FF 60%, #3D4ABF 60%, #3D4ABF 100%);
+        }
     }
 
     .menu {
@@ -169,6 +190,9 @@
         &__item {
             margin-right: 20px;
             width: 240px;
+            &_horizontal {
+                width: 600px;
+            }
         }
     }
 
@@ -201,7 +225,14 @@
     .promo {
         min-height: 470px;
         padding: 30px 0 50px 0;
-        &_results {
+        &_results, 
+        &_blocker, 
+        &_hologram,
+        &_security,
+        &_battery,
+        &_clean,
+        &_login,
+        &_smart {
             background:  linear-gradient(to bottom, #F1F4FF 65%, #343538 65%, #0B0F20 100%);
         }
     }

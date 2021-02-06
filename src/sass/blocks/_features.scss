@@ -1,8 +1,31 @@
 .features {
     padding: 120px 0 115px 0;
     min-height: 770px;
-    background: #377AE2;
     overflow: hidden;
+    &_result {
+        background: #377AE2;
+    }
+    &_blocker {
+        background: #036E55;
+    }
+    &_hologram {
+        background: #4B4B4B;
+    }
+    &_security {
+        background: #424B63;
+    }
+    &_battery {
+        background: #0E702D;
+    }
+    &_clean {
+        background: #494B52;
+    }
+    &_login,
+    &_smart {
+        background: #4332E4;
+    }
+
+    
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -28,6 +51,31 @@
             background: #3C82EF;
             box-shadow: -60px -60px 116px rgba(94, 168, 255, 0.76), 60px 55px 136px rgba(25, 79, 163, 0.26);
         }
+        &_blocker {
+            background: #1B997C;
+            box-shadow: 60px 55px 136px rgba(0, 58, 37, 0.26);
+        }
+        &_hologram {
+            background: #707070;
+            box-shadow: 60px 55px 136px rgba(38, 38, 38, 0.26);
+        }
+        &_security {
+            background: #677088;
+            box-shadow: 60px 55px 136px rgba(29, 38, 62, 0.26);
+        }
+        &_battery {
+            background: #339552;
+            box-shadow: 60px 55px 136px rgba(0, 61, 19, 0.26);
+        }
+        &_clean {
+            background: #6E7077;
+            box-shadow: 60px 55px 136px rgba(36, 38, 45, 0.26);
+        }
+        &_login,
+        &_smart {
+            background: #6959FF;
+            box-shadow: 60px 55px 136px rgba(31, 14, 192, 0.26);
+        }
     }
     &__circle-m {
         width: 840px;
@@ -37,6 +85,31 @@
             background: #3C82EF;
             box-shadow: -100px -100px 200px rgba(94, 168, 255, 0.76), 100px 100px 200px rgba(25, 79, 163, 0.26);
         }
+        &_blocker {
+            background: #11886C;
+            box-shadow: 60px 55px 136px rgba(0, 58, 37, 0.26);
+        }
+        &_hologram {
+            background: #616161;
+            box-shadow: 60px 55px 136px rgba(38, 38, 38, 0.26);
+        }
+        &_security {
+            background: #586179;
+            box-shadow: 60px 55px 136px rgba(29, 38, 62, 0.26);
+        }
+        &_battery {
+            background: #248643;
+            box-shadow: 60px 55px 136px rgba(0, 61, 19, 0.26);
+        }
+        &_clean {
+            background: #5F6168;
+            box-shadow: 60px 55px 136px rgba(36, 38, 45, 0.26);
+        }
+        &_login,
+        &_smart {
+            background: #5A49FB;
+            box-shadow: 60px 55px 136px rgba(31, 14, 192, 0.26);
+        }
     }
     &__circle-l {
         width: 1440px;
@@ -45,6 +118,31 @@
         &_result {
             background: #3C82EF;
             box-shadow: -100px -100px 200px rgba(94, 168, 255, 0.76), 100px 100px 200px rgba(25, 79, 163, 0.26);
+        }
+        &_blocker {
+            background: #11886C;
+            box-shadow: 60px 55px 136px rgba(0, 58, 37, 0.19);
+        }
+        &_hologram {
+            background: #565656;
+            box-shadow: 60px 55px 136px rgba(38, 38, 38, 0.19);
+        }
+        &_security {
+            background: #4D566E;
+            box-shadow: 60px 55px 136px rgba(29, 38, 62, 0.19);
+        }
+        &_battery {
+            background: #197B38;
+            box-shadow: 60px 55px 136px rgba(0, 61, 19, 0.19);
+        }
+        &_clean {
+            background: #54565D;
+            box-shadow: 60px 55px 136px rgba(36, 38, 45, 0.19);
+        }
+        &_login,
+        &_smart {
+            background: #4E3DEF;
+            box-shadow: 60px 55px 136px rgba(31, 14, 192, 0.19);
         }
     }
     &__content {
